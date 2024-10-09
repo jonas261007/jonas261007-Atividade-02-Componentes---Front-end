@@ -1,0 +1,123 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* App Container */
+.app {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.cabecalho h1 {
+  font-size: 2.5rem;
+}
+
+.cabecalho p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Título */
+.titulo {
+  color: #333;
+  font-size: 2rem;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Parágrafo */
+.paragrafo {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Quadrado */
+.quadrado {
+  width: 150px;
+  height: 150px;
+  background-color: #000000;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* Imagem */
+.imagem {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+/* Lista de Itens */
+.lista-itens {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.item {
+  background-color: #e0e0e0;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Botão */
+.botao {
+  display: block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #000000;
+}
+
+/* Rodapé */
+.rodape {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #f4f4f9;
+  border-radius: 0 0 10px 10px;
+}
